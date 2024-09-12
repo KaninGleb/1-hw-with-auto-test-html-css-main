@@ -30,8 +30,8 @@
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
         <select>
                 <option value="yourCity" disabled>Your city</option>
-                <option value="Grodno">Grodno</option>
                 <option value="Minsk" selected>Minsk</option>
+                <option value="Grodno">Grodno</option>
                 <option value="Vitebsk">Vitebsk</option>
                 <option value="Mogilev">Mogilev</option>
                 <option value="Brest">Brest</option>
@@ -100,17 +100,19 @@
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
         <form>
             <label>New skill:</label>
-            <input type="text" placeholder="My skill is...">
+            <input type="text" placeholder="Новый скилл">
         
         <!-- 6) Создай здесь кнопку “Добавить” -->
-            <input type="submit" id="add" value="Add">
-            <input type="reset" id="reset" value="Reset">
+            <!-- <input type="submit" id="add" value="Add">
+            <input type="reset" id="reset" value="Reset"> -->
+            <button type="submit">Add</button>
+            <button type="reset">Reset</button>
         </form>
-        
+
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
         <hr>
         
-        <table data-cy="hw-about-table-pre">
+        <table style="border: 1px;" data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
             - В первой строке ячейки заголовков, в остальных обычные ячейки
             - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
