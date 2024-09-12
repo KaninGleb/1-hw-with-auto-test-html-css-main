@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>It-incubator precourse</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
 
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
         <select>
-            <option value="youCity" disabled>Your city</option>
+            <option value="yourCity" disabled>Your city</option>
             <option value="Grodno">Grodno</option>
             <option value="Minsk" selected>Minsk</option>
             <option value="Vitebsk">Vitebsk</option>
@@ -62,7 +63,7 @@
             </ol>
         </div>
         <div data-cy="hw1-skills-box-pre">
-            <h2>My skills</h2>
+            <h2>My skills:</h2>
             <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х). 
             - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
             - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
@@ -94,10 +95,6 @@
                     Angular
                 </label>
 
-                <label for="Flutter">
-                    <input id="Flutter" type="checkbox" name="Flutter">
-                    Flutter
-                </label>
             </fieldset>
         </div>
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
@@ -111,14 +108,39 @@
         </form>
         
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
-        
+        <hr size="1px">
         
         <table data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
-                        - В первой строке ячейки заголовков, в остальных обычные ячейки
-                        - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
-                        - В последнем ряду первая ячейка должна занимать все свободное место по горизонтали (ширине). Таблицу можно заполнять любыми данными -->
-        </table>
+            - В первой строке ячейки заголовков, в остальных обычные ячейки
+            - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
+            - В последнем ряду первая ячейка должна занимать все свободное место по горизонтали (ширине). Таблицу можно заполнять любыми данными -->
+            <table border="2">
+                <tr>
+                    <th>Technology</th>
+                    <th>Description</th>
+                    <th>Popularity (from 1 to 10)</th>
+                </tr>
+                <tr>
+                    <td>Artificial intelligence</td>
+                    <td>Technologies that allow machines to perform tasks that require intelligence.</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Cloud computing</td>
+                    <td>Provision of computing resources via the Internet.</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Data science</td>
+                    <td>Analyzing and processing large amounts of data to obtain insights.</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:left">The average value:</td>
+                    <td>8</td>
+                </tr>
+            </table>
     </section>
     <footer data-cy="hw-footer-pre">
         <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
