@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 150;
     background: #def7f7;
 }
 section{
@@ -11,6 +11,15 @@ select{
 }
 option{
     font-size: medium;
+}
+fieldset{
+    margin: 10px;
+}
+hr{
+    height: 1.5px;
+    background-color: #000000;
+    margin: 10px auto;
+    border: 1px solid black;
 }
 table {
     border-collapse: collapse; 
