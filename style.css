@@ -1,58 +1,47 @@
+
 body {
     margin: 150;
     background: #def7f7;
 }
-section{
+
+section {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-select{
+select {
     font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-option{
+
+option {
     font-size: medium;
 }
-fieldset{
+fieldset {
     margin: 10px;
 }
-hr{
+
+hr {
     height: 1.5px;
     background-color: #000000;
     margin: 10px auto;
     border: 1px solid black;
 }
+
 table {
-    border-collapse: collapse; 
+    border-collapse: collapse;
     line-height: 1.1;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     background-color: #fadbf6;
     color: #0C213B;
-}
-caption {
-    font-family: annabelle, cursive;
-    font-weight: bold;
-    font-size: em;
-    padding: 10px; 
-    color: #F3CD26;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.3);
-}
-caption:before, caption:after {
-
-    color: #A9E2CC;
-    margin: 0 10px;
-}
-th {
-    font-size: large;
-    padding: 10px; 
-    border: 1px solid #000000;
-}
-td {
-    font-size: 1.1em;
-    padding: 5px 7px;
-    border: 1px solid #000000;
-}
-.first {
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
+    th {
+        font-size: large;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid #000000;
+    }
+    
+    td {
+        font-size: 1.1em;
+        padding: 5px 7px;
+        border: 1px solid #000000;
+    }
 }
