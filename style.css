@@ -1,5 +1,4 @@
-
-body {
+body { 
     margin: 150;
     background: #def7f7;
 }
@@ -7,6 +6,7 @@ body {
 section {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 select {
     font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,6 +15,7 @@ select {
 option {
     font-size: medium;
 }
+
 fieldset {
     margin: 10px;
 }
@@ -32,13 +33,14 @@ table {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     background-color: #fadbf6;
     color: #0C213B;
+
     th {
         font-size: large;
         font-weight: bold;
         padding: 10px;
         border: 1px solid #000000;
     }
-    
+
     td {
         font-size: 1.1em;
         padding: 5px 7px;
